@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.thamersaadi.miniprojet.HomeAdmin">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="54dp"
+        app:srcCompat="@drawable/chercher"
+        android:onClick="btnChercher_Click"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_marginEnd="21dp"
+        app:srcCompat="@drawable/listeemp"
+        android:onClick="btnListe_Click"/>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView6"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/ajouter"
+        android:onClick="btnAjouter_Click"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView8"
+        android:layout_below="@+id/imageView8"
+        android:layout_marginTop="43dp"
+        app:srcCompat="@drawable/exit"
+        android:onClick="btnOut_Click"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_alignTop="@+id/imageView8"
+        app:srcCompat="@drawable/stats"
+        android:onClick="btnStat_Click"/>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_alignTop="@+id/imageView9"
+        app:srcCompat="@drawable/future" />
+</RelativeLayout>

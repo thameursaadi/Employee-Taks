@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MiniProjet</string>
+    <array name="departements">
+        <item>Informatique</item>
+        <item>Marketing</item>
+        <item>Finance</item>
+        <item>Resource Humain</item>
+    </array>
+    <array name="genre">
+        <item>homme</item>
+        <item>femme</item>
+    </array>
+    <string name="title_activity_index_employee">IndexEmployee</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
